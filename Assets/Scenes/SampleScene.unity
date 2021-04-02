@@ -1776,6 +1776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1149970876}
   - component: {fileID: 1149970877}
+  - component: {fileID: 1149970878}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -1816,6 +1817,21 @@ MonoBehaviour:
   Place4: {fileID: 1468299921}
   Place5: {fileID: 567859978}
   DailyShop: {fileID: 492490782}
+--- !u!114 &1149970878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149970875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 077779e886d96474ba487ca73d5ff4c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvass:
+  - {fileID: 1045824909}
+  - {fileID: 467171285}
 --- !u!1 &1195242933
 GameObject:
   m_ObjectHideFlags: 0
